@@ -17,6 +17,8 @@ public class BabyNameGenerator {
       partnerName += "uye";
     }
 
+    steve.close();
+
     for (int number = 0; number < 3; number++) {
       babyName = babyName + userName.charAt(number) + partnerName.charAt(number);
     }
