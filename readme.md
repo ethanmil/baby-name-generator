@@ -1,3 +1,3 @@
 ## Baby Name Generator
 
-Pass two arguments (parent's names) to generate a baby name.
+Pass two arguments (parents' names) to generate a baby name.
