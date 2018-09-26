@@ -28,9 +28,7 @@ public class BabyNameGenerator {
     steve.close();
 
     // Generating the baby name
-    for (int number = 0; number < 3; number++) {
-      babyName = babyName + userName.charAt(number) + partnerName.charAt(number);
-    }
+    babyName = userName.substring(0, 3) + partnerName.substring(0, 3);
 
     // Uppercases the first character & lowercases the rest
     String str1 = "" + babyName.charAt(0);
